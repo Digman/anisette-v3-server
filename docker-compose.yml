@@ -7,4 +7,4 @@ services:
         privileged: true
         restart: always
         ports:
-           - "51030:6969"
+           - "7890:6969"
