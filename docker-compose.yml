@@ -1,0 +1,10 @@
+version: '3.6'
+
+services:
+    anis:
+        image: dadoum/anisette-v3-server:latest
+        hostname: anis
+        privileged: true
+        restart: always
+        ports:
+            - "7080:6969"
