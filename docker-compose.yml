@@ -6,7 +6,5 @@ services:
         hostname: anis
         privileged: true
         restart: always
-        volumes:
-           - "~/anisette/data:/home/Alcoholic/.config/anisette-v3/lib/"
         ports:
            - "51030:6969"
