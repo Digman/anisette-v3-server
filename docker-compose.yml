@@ -7,6 +7,6 @@ services:
         privileged: true
         restart: always
         volumes:
-           - anisette-v3_data:~/.config/anisette-v3/lib/
+           - "~/anisette/data:/home/Alcoholic/.config/anisette-v3/lib/"
         ports:
-            - "7080:6969"
+           - "51030:6969"
